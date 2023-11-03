@@ -1,0 +1,48 @@
+.container-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('/wp-content/uploads/2023/11/Group16.svg');
+  background-position: left 60px bottom 75px;
+  background-repeat: no-repeat;
+}
+
+.custom-label,
+.custom-label-textarea {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.wpcf7-form-control-wrap {
+  width: 383px !important;
+  height: 71px !important;
+  border-radius: 7px !important;
+}
+
+textarea {
+  width: 383px;
+  height: 237px;
+  resize: none;
+  border-radius: 7px;
+}
+
+/* Style du bouton */
+.wpcf7-submit {
+  margin-top: 170px;
+  display: flex !important;
+  width: 198px !important;
+  height: 55px !important;
+  color: white !important;
+  padding: 9px 0px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 5px !important;
+  background: #E0B9B4 !important;
+}
+
+.wpcf7-submit:hover {
+  background: #C02E44 !important;
+}
