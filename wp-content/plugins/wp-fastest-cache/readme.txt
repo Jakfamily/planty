@@ -4,7 +4,7 @@ Donate link: https://profiles.wordpress.org/emrevona/
 Tags: cache, Optimize, performance, wp-cache, core web vitals
 Requires at least: 3.3
 Tested up to: 6.4
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -115,6 +115,10 @@ Chinese Simplified (China), Chinese Traditional (Taiwan), Czech, Dutch (Belgium)
 18. Database Cleanup
 
 == Changelog ==
+= 1.2.2 =
+* Security Enhancements
+* to update translation files
+
 = 1.2.1 =
 * refactroning of the condition that was added for Divi theme
 * <strong>[FEATURE]</strong> Add a hook system for creating a post cache by id [<a target="_blank" href="https://www.wpfastestcache.com/tutorial/create-a-post-cache-by-id-using-the-function-hook/">Details</a>]

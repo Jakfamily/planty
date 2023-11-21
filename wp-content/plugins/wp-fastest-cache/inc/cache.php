@@ -482,7 +482,9 @@
 				}
 			}
 
-			if(isset($username) && $username){			
+			if(isset($username) && $username){
+				$username = esc_sql($username);
+
 				$res = $wpdb->get_var("SELECT `$wpdb->users`.`ID`, `$wpdb->users`.`user_login`, `$wpdb->usermeta`.`meta_key`, `$wpdb->usermeta`.`meta_value` 
 									   FROM `$wpdb->users` 
 									   INNER JOIN `$wpdb->usermeta` 
