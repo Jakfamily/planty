@@ -122,7 +122,7 @@ li.admin a {
   color: #000000;
 }
 
-.wpcf7-form-control-wrap {
+.form-container .wpcf7-form-control-wrap {
   width: 383px !important;
   height: 71px !important;
   border-radius: 7px !important;
@@ -159,6 +159,23 @@ textarea {
 .form-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.row.form-input-number {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+
+.row.form-input-number input::-webkit-outer-spin-button,
+.row.form-input-number input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.form-input-number input {
+  width: 42px !important;
 }
 
 /* Style pour la colonne de gauche */
