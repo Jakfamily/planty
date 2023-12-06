@@ -88,18 +88,17 @@ li.admin a {
   background-repeat: no-repeat;
 }
 
-.img-leaf img {
-  position: relative;
-  left: -192px;
-  top: -295px;
-  z-index: 1;
-
-}
 
 .container-form .form-group-textarea {
   z-index: 10;
 }
 
+.img-leaf img {
+  position: relative;
+  left: -227px;
+  top: -300px;
+  z-index: 1;
+}
 
 /* Media query pour les écrans de 1440 pixels et plus */
 @media screen and (min-width: 1439px) {
@@ -137,7 +136,7 @@ textarea {
 
 /* Style du bouton */
 .wpcf7-submit {
-  margin-top: 170px;
+  /* margin-top: 170px; */
   display: flex !important;
   width: 198px !important;
   height: 55px !important;
