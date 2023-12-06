@@ -153,6 +153,15 @@ textarea {
 }
 
 /* -----------------------commander------------------------------------- */
+.wp-block-uagb-separator__inner {
+  width: 45% !important;
+  height: 3px !important;
+}
+
+.white-line {
+  background: #fff !important;
+  height: 3px !important;
+}
 
 /* Style pour le formulaire */
 .form-container {
@@ -229,6 +238,7 @@ textarea {
   margin: 0 auto;
   margin-top: -160px !important;
   text-align: center;
+  margin-top: 15px !important;
 }
 
 /********************************footer***********************************************/
